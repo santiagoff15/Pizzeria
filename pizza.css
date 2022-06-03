@@ -1,0 +1,185 @@
+#logo {
+    width: 120px;
+    height: 120px;
+    margin-left: 20px;
+}
+
+header {
+    padding: 20px;
+    background-color: #D43722;
+    text-align: center;
+    display: flex;
+    box-shadow: -1px 1px 26px 0px rgb(133, 0, 0)inset;
+
+}
+header p {
+    margin: 0px;
+}
+
+header h1 {
+    text-align: center;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-right: 300px;
+    color: #000000;
+}
+
+main {
+    background-color: #E55E4C;
+    padding-top: 100px;
+    padding-left: 500px;
+    padding-right: 300px;
+    padding-bottom: 200px;
+    box-shadow: -1px 1px 26px 0px rgb(133, 0, 0)inset;
+}
+
+footer {
+    background-color: #810F00;
+    padding: 200px;
+}
+
+div p {
+    font-family: 'Koulen', cursive;
+    font-size: 20px;
+}
+
+.icononav {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+nav li {
+    display: inline;
+    text-align: left;
+    margin-right: 15px;
+    background-color: white;
+    border: #13073A solid 5px;
+    padding: 8px;
+    border-radius: 10px;
+    padding-top: 10px;
+}
+
+nav {
+    text-align: left;
+    align-items: left;
+}
+li{
+    font-family: 'Anton', sans-serif;
+    list-style:none
+}
+#direccion{
+    text-align: right;
+    background-color: blue;
+}
+.redes{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+#terminos{
+    text-align: center;
+    
+}
+#cuentas{
+    text-align: left;
+}
+#terminos{
+    font-family: 'Montserrat', cursive;
+    justify-content: left;
+    display: flex;
+}
+#cajaentera{
+    display: flex;
+}
+#bebidas{
+    
+}
+#datospedido{
+    display: inline;
+    background-color: #eb8375;
+    border-radius: 5px;
+    border: black solid 5px;
+    margin-right: 2.5px;
+
+}
+#cajapedido{
+display: inline;
+background-color: #eb8375;
+border: black solid 5px;
+border-radius: 5px;
+margin-left: 2.5px;
+}
+.nocta{
+    padding: 10px;
+    border: 5px;
+    margin: 10px;
+}
+input{
+    width: 100%;
+}
+#tmt{
+    width: 30px;
+    font-size: 20px;
+}
+.bebiditas{
+    width: 20px;
+}
+select{
+    width: 100%;
+}
+.deli{
+    width: 20px;
+}
+h1{
+    font-family: 'Anton', sans-serif;
+}
+body{
+    margin: 0px;
+}
+.rt1{
+    margin-bottom: 20px;
+}
+.rt1 input{
+    width: 50px;
+}
+#pedir{
+    width: 100px;
+    padding: 15px;
+    border: black solid 5px;
+    background-color: #eb8375;
+    color: #ebebeb;
+    margin-left: 30px;
+    border-radius: 20px;
+}
+.dates{
+    background-color: transparent;
+    border-top: transparent;
+    border-left:transparent ;
+    border-right: transparent;
+    border-bottom: black solid 2px;
+}
+.canti{
+    background-color: transparent;
+    border-top: transparent;
+    border-left:transparent ;
+    border-right: transparent;
+    border-bottom: black solid 2px;
+}
+option{
+    background-color: black;
+    color: white;
+}
+#sss{
+    margin: 0px 270px;
+}
+#pie{
+    display: flex;
+    justify-content: space-between;
+}
+#platita{
+    font-family: 'Noto Sans JP', sans-serif;
+    color: rgb(255, 0, 204);
+}

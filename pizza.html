@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos </title>
+    <link rel="stylesheet" href="pizza.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Cinzel&family=Koulen&family=Montserrat:wght@100&family=Noto+Sans+JP:wght@100&family=Permanent+Marker&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <div>
+            <img id="logo" src="assets/img/pizza.png">
+            <p><b>PIZZERIA PARISI</b></p>
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <img src="assets/img/casa.png" class="icononav">HOME
+                </li>
+                <li>
+                    <img src="assets/img/porcion-de-pizza.png" class="icononav">PRODUCTO
+                </li>
+                <li>
+                    <img src="/assets/img/directorio.png" class="icononav">CONTACTO
+                </li>
+            </ul>
+        </nav>
+
+    </header>
+    <main>
+        <form action="">
+            <div id="sss">
+                <h1>Hacé tu pedido</h1>
+            </div>
+            <div id="cajaentera" class="nocta">
+                <div id="datospedido" class="nocta">
+                    <div>
+                        <h1>Datos</h1>
+                    </div>
+                    <div>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" class="dates" id="nombre" required>
+                    </div>
+                    <div>
+                        <label for="correo">Email</label>
+                        <input type="text" name="Email" id="Email" class="dates" required>
+                    </div>
+                    <div>
+                        <label for="direc">Dirección</label>
+                        <input type="text" name="direc" id="direc" class="dates" required>
+                    </div>
+                    <div>
+                        <label for="cod-post">Código postal</label>
+                        <input type="text" name="cod-post" id="cod-post" class="dates" required>
+                    </div>
+                    <div>
+                        <label for="cel">Celular</label>
+                        <input type="text" name="cel" id="cel" class="dates" required>
+                    </div>
+                    <div>
+                        <label for="casa">
+                            Envio a domicilio
+                        </label>
+                        <input type="radio" name="equipo" value="domicilio" class="deli" required>
+                        <label for="local">
+                            Retiro por local
+                        </label>
+                        <input type="radio" name="equipo" value="retiro" class="deli" required>
+                    </div>
+                    <div id="terminos">
+                        <input type="checkbox" id="tmt" required>Acepto Términos y condiciones
+                    </div>
+                </div>
+                <div id="cajapedido" class="nocta">
+                    <div>
+                        <h1>
+                            Pedido
+                        </h1>
+                    </div>
+                    <div class="rt1">
+                        <label for="pizza">Pizza</label>
+                        <select name="pizzini" class="dates">
+                            <option value="muzza">Muzzarella</option>
+                            <option value="caprese">Caprese</option>
+                            <option value="especial">Especial</option>
+                            <option value="veggie">Vegetariana</option>
+                        </select>
+                        <label>Cantidad</label>
+                        <input type="number" name="cant" value="0" class="canti" max="5" min="0">
+                    </div>
+                    <div id="pp">
+                        <label for="bebidas">Bebidas</label>
+                    </div>
+                    <div id="bebidas">
+                        <div class="rt1">
+                            Gaseosa<input type="checkbox" class="bebiditas">
+                        <select class="dates">
+                            <option value="coca">Coca-Cola</option>
+                            <option value="fanta">Fanta</option>
+                            <option value="pepsi">Pepsi</option>
+                            <option value="sprite">Sprite</option>
+                        </select>
+                        <label>Cantidad</label>
+                        <input type="number" name="cant" value="0" class="canti" max="5" min="0">
+                        </div>
+                        <div class="rt1">
+                            Jugo<input type="checkbox" class="bebiditas">
+                        <select class="dates">
+                            <option value="naranja">Naranja</option>
+                            <option value="manzana">Manzana</option>
+                            <option value="pomelo">Pomelo</option>
+                            <option value="uva">Uva</option>
+                            <option value="limon">Limon</option>
+                        </select class="dates2">
+                        <label>Cantidad</label>
+                        <input type="number" name="cant" value="0" class="canti" max="5" min="0">
+                        </div>
+                        <div class="rt1">
+                            Cerveza<input type="checkbox" class="bebiditas">
+                        <select class="dates">
+                            <option value="lata">En lata</option>
+                            <option value="litro">1 Litro</option>
+                            <option value="2litros">2 Litros</option>
+                        </select>
+                        <label>Cantidad</label>
+                        <input type="number" name="cant" value="0" class="canti" max="5" min="0">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <input type="submit" value="PEDIR" id="pedir">
+            </div>
+        </form>
+    </main>
+    <footer>
+
+        <div id="pie">
+            <div class="piepag">
+                <ul>
+                    <li>
+                        <img src="/assets/img/marcador.png" class="icononav">Paraguay 1050
+                    </li>
+                </ul>
+            </div>
+            <div class="piepag">
+                <ul>
+                    <li>
+                        <img src="/assets/img/comentario-alt.png" class="icononav">Términos y Privacidad
+                        <img src="/assets/img/usuario.png" class="icononav">Mi Cuenta
+                    </li>
+                </ul>
+            </div>
+            <div class="piepag">
+                <ul>
+                    <li>
+                        <img src="/assets/img/instagram.png" alt="" class="redes">Instagram
+                        <img src="/assets/img/twitter.png" alt="" class="redes">Twitter
+                        <img src="/assets/img/facebook.png" alt="" class="redes">Facebook
+                        <img src="/assets/img/megafono.png" alt="" class="redes">Correo
+                    </li>
+                </ul>
+            </div>
+    </div>
+    <div>
+        <p id="platita">Hecho por Santiago Loncopan</p>
+    </div>
+</footer>
+</body>
+
+</html>
